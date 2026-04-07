@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+![RelayReport banner](relay.png)
 
-First, run the development server:
+**[🌐 Live site — relay-report-vjeb.vercel.app](https://relay-report-vjeb.vercel.app/)**
+
+</div>
+
+# 🚀 RelayReport
+
+**RelayReport** is the marketing site and landing experience for an agency-focused client-reporting product: one live hub for metrics, polished PDF exports, and renewals backed by real numbers instead of slide decks and screenshots.
+
+## ✨ What this repo is
+
+- **⚡ Next.js 15** + **⚛️ React 19** + **🎨 Tailwind CSS** — fast, modern stack for the public site at **[relay-report-vjeb.vercel.app](https://relay-report-vjeb.vercel.app/)**
+- **📣 Story-first landing page**: hero, problem/solution, feature “superpowers,” social proof, pricing, FAQ, and footer — tuned for agency leads who want reporting without the weekend deck grind
+- **☁️ Deploy-ready** on Vercel (same lineage as the live demo above)
+
+> **🖼️ Banner image:** add `relay.png` in the **repo root** (same folder as this README). GitHub will show it at the top automatically after you commit.  
+> *(If you named it `relay.pnd`, rename it to `relay.png` so the markdown image works.)*
+
+## 🏃 Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **[http://localhost:3000](http://localhost:3000)** to hack on the app. Edit `app/page.tsx` (and related components under `app/`) — the dev server hot-reloads.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧰 Other scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command           | What it does           |
+| ----------------- | ---------------------- |
+| `npm run build`   | Production build       |
+| `npm run start`   | Run production server  |
+| `npm run lint`    | ESLint                 |
 
-## Learn More
+## 🧩 Stack highlights
 
-To learn more about Next.js, take a look at the following resources:
+- **UI**: Radix Accordion, Lucide icons, `class-variance-authority` / `clsx` / `tailwind-merge` for tidy styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚢 Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is built for **[Vercel](https://vercel.com)** — connect the repo or push to your linked project for previews and production.
 
-## Deploy on Vercel
+## 📜 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is released under the **[MIT License](LICENSE)** — copyright **raimonvibe** (2026).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Made with agency sanity in mind. **Ship the live room, not another Friday deck.** ✨
